@@ -130,9 +130,9 @@ int main()
     if(count==0)
         printf("\t[No networks found!]\n");
 
-	for(i=0; i<count; i++)
-    	free(networks[i]);
-    free(networks);	
+    for(i=0; i<count; i++)
+        free(networks[i]);
+    free(networks);
 
     printf("\n");
     system("pause");
